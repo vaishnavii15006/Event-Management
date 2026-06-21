@@ -1,45 +1,133 @@
 # Event Management System
 
 ## Overview
-A full stack Event Management web application developed using React.js, Node.js, Express.js, and MongoDB.
+
+Event Management System is a web application developed to simplify the process of organizing and managing events. The system allows users to explore events, view galleries, and interact with event-related information through a user-friendly interface.
+
+The project also includes an admin side for managing event details, gallery content, and user-related operations.
+
+---
 
 ## Features
-- User Login & Signup
-- Quote/Contact Form
-- Responsive UI
-- Dashboard
-- REST APIs
-- MongoDB Integration
+
+### User Features
+- User registration and login
+- View event details
+- Browse event gallery
+- Contact and inquiry support
+- Password recovery
+
+### Admin Features
+- Add new events
+- Update event information
+- Delete events
+- Manage gallery images
+- Manage user data
+
+### Additional Functionality
+- Secure authentication
+- Image upload support
+- Email integration
+- Password reset functionality
+
+---
 
 ## Tech Stack
-Frontend: React.js, HTML, CSS, JavaScript  
-Backend: Node.js, Express.js  
-Database: MongoDB Atlas
+
+### Frontend
+- HTML
+- CSS
+- JavaScript
+
+### Backend
+- Node.js
+- Express.js
+
+### Database
+- MongoDB
+
+### Other Tools
+- Mongoose
+- Multer
+- Nodemailer
+- dotenv
+
+---
+
+## Project Structure
+
+```text
+event-management-system
+│
+├── frontend
+│   ├── HTML
+│   ├── CSS
+│   └── JavaScript
+│
+├── backend
+│   ├── controllers
+│   ├── models
+│   ├── routes
+│   ├── config
+│   └── app.js
+│
+└── README.md
+```
+
+---
 
 ## Installation
 
-### Frontend
-cd frontend
+### Clone the Repository
+
+```bash
+git clone https://github.com/vaishnavii15006/Event-Management.git
+```
+
+### Install Dependencies
+
+```bash
 npm install
+```
+
+### Configure Environment Variables
+
+Create a `.env` file and add the required configuration values.
+
+### Run the Application
+
+```bash
 npm start
+```
 
-### Backend
-cd backend
-npm install
-npm start
+The server will start on the configured port.
 
-### Environment Variables
-Create .env in backend folder:
+---
 
-MONGO_URI=your_mongodb_uri
-PORT=5000
+## What I Learned
 
-### API Endpoints
-Method	Endpoint	Description
-POST	/register	Register user
-POST	/login	Login user
-POST	/contact	Submit contact form
+This project helped me gain practical experience in:
 
+- Building REST APIs using Express.js
+- MongoDB database operations
+- Authentication and user management
+- File upload handling
+- Email integration
+- Connecting frontend and backend applications
+- Full-stack web application development
 
-### Author
+---
+
+## Future Improvements
+
+- Online event booking
+- Payment gateway integration
+- Event ticket generation
+- Notification system
+- Event analytics dashboard
+
+---
+
+## Developed By
+
 Vaishnavi K
